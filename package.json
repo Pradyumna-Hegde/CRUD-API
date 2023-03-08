@@ -1,0 +1,26 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "This project contains source code for simple REST API for CRUD operations",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pradyumna-Hegde/CRUD-API.git"
+  },
+  "author": "Pradyumna-Hegde",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pradyumna-Hegde/CRUD-API/issues"
+  },
+  "homepage": "https://github.com/Pradyumna-Hegde/CRUD-API#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.21",
+    "uuid": "^9.0.0"
+  }
+}
